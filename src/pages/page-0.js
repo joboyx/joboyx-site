@@ -1,0 +1,14 @@
+import React from 'react'
+import Link from 'gatsby-link'
+
+const ZeroPage = () =>
+  <div>
+    <h1>Hi people</h1>
+    <p>Welcome to your new Gatsby site.</p>
+    <p>Now go build something great.</p>
+    <Link to="/page-1/">Go to page 1</Link>
+    <br/>
+    <Link to="/page-2/">Go to page 2</Link>
+  </div>
+
+export default ZeroPage
